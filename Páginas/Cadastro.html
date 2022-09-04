@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Cadastro</title>
-    <link rel="stylesheet" href="stylecss2.css">
+    <link rel="stylesheet" href="/CSS/stylecss2.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
      <!---INCIO MENU--->
      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="Paradise.html">PARADISE</a>
+      <a class="navbar-brand" href="/Index.html">PARADISE</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -31,7 +31,7 @@
 <body>
   <div id="back">
     <div class="backRight"></div>
-    <div class="backLeft"> <img src="./travel.png"></div>
+    <div class="backLeft"> <img src="./Imagens/travel.png"></div>
   </div>
   <div id="slideBox">
     <div class="topLayer">
@@ -41,14 +41,19 @@
       </div>
       <div class="right">
         <div class="content">
-          <h2>Login</h2>
-          <form method="post" onsubmit="return false;">
-            <div class="form-group">
-              <input type="text" placeholder="E-mail cadastrado" />
-              <input type="text" placeholder="senha" />
-            </div>
+            <h2>  Crie sua conta:</h2>
+            <form action="./cadastrase.html">
+            <label for="text">Nome:</label>
+            <input type="search" id="text" placeholder="Nome Completo">
+            <label for="text">E-mail:</label>
+            <input type="email" id="email" placeholder="">
+            <label for="text">Telefone:</label>
+            <input type="tel" id="Telefone" placeholder=" (  )">
+            <label for="text">Senha:</label>
+            <input type="password" id="password" placeholder="">
+            <br><p></p>
             <button class="btn btn-outline-primary  my-2 my-sm-0" type="submit">Enviar</button>
-            <p> <a href="cadastrase.html"> Não possui cadastro? Cadastra-se</a></p>
+            <p> <a href="./cadastrase.html"> Não possui cadastro? Cadastra-se</a></p>
           </form>
         </div>
       </div>

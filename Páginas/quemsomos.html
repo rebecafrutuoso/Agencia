@@ -2,55 +2,109 @@
 <html lang="pt=br">
 <head>
     <meta charset="UTF-08">
-    <title> Quem Somos</title> 
+    <title> Quem Somos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-</head>
+    <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=6314150b76ed290012d91e0d&product=inline-share-buttons" async="async"></script>
+    <style>
+      body {
+        font-family: Arial;
+        color: white;
+      }
+      
+      .split {
+        height: 400px;
+        width: 750px;
+        position:absolute;
+        z-index: 1;
+        top: 60px;
+        overflow-x: hidden;
+        padding-top: 20px;
+      }
+      
+      .left {
+        left: 0;
+        background-color: #1e3c6c;
+      }
+      
+      .right {
+        right: 0;
+        background-color: #1e3c6c;
+      }
+      
+    .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: justify;
+    width: 500px;
+    }
+
+    .centered img {
+    width: 150px;
+    border-radius: 50%;
+    }
+    .footer {
+    margin: 30px;
+    width: 90%;
+    height: 200px;
+    bottom: 0px;
+    padding-top: 70px;
+    position: fixed;
+    background-color:white;
+    color:rgb(153, 153, 149);
+    }
+
+</style>
+  </head>
   <!---INCIO MENU--->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="Paradise.html">PARADISE</a>
+    <a class="navbar-brand" href="paradise.html">PARADISE</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
       <span class="navbar-toggler-icon"></span>
     </button>
    <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="Destinos.html">Destinos</a>
+        <li class="nav-item active">
+          <a class="nav-link" href="./destinos.html">Destinos <span class="sr-only">(página atual)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="promoções.html">Promoções</a>
+          <a class="nav-link" href="./promoções.html">Promoções</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Contato.html">Contato</a>
+          <a class="nav-link" href="./Contato.html">Contato</a>
         </li>
       </ul>
       <nav class="form-inline my-2 my-lg-0"">
         <form class="form-inline">
           <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">
-          <a href="cadastro.html">Entre ou cadastra-se</a></button>
+          <a href="./Cadastro.html">Entre ou cadastra-se</a></button>
         </form>
       </nav>
     </div>
   </nav>
   <!---FIM MENU-->
- <body style="text-align:center; font-family:Verdana, Geneva, Tahoma, sans-serif; color:#1e3c6c;">
-      <p style=" position: relative; text-align: center;">
-      <br><p> Quem Somos</p>
-      <br>
-      A Paradise Agência de Viagens surgiu da vontande de viajar e conhecer os paraisos desse mundo.
-      <br>
-      <p> Conheça nossos valores, missão e visão:</p>
-       <br>
-      <p>Missão: Agenciar as soluções de turismo que melhor atendam as necessidades de nossos clientes com segurança, agilidade e conhecimento.</p>
-      <p>Visão: Ser reconhecida pelos nossos clientes, equipe e fornecedores como agência de viagens com inovação e alta tecnologia.</p>
-      <p>Valores: Comprometimento com os nossos clientes, equipe e parceiros através: </p>
-      </p>
-     <br>
-    <hr>
+  <div class="split left">
+    <div class="centered">
+    <h5>QUEM SOMOS</h5>
+    <p>A Paradise Agência de Viagens surgiu da vontande de viajar e conhecer os paraisos desse mundo.Conheça nossos valores, missão e visão:</p>
+    <p><b>Missão:</b> Agenciar as soluções de turismo que melhor atendam as necessidades de nossos clientes com segurança, agilidade e conhecimento.</p>
+    <p><b>Visão:</b> Ser reconhecida pelos nossos clientes, equipe e fornecedores como agência de viagens com inovação e alta tecnologia.</p>
+     <b>Valores:</b> Comprometimento com os nossos clientes, equipe e parceiros.</p>
+  </div>
+</div>
+  
 
+<div class="split right">
+  <img src="./Imagens/Venha viajar conoscoo.png" width="100%">
+  <div class="centered"></div>
+</div>
+   
 <!---INICIO RODAPÉ-->
-<footer style="background-color:white; color:rgb(153, 153, 149)" class="container py-5">
+   <div class="footer" class="container py-5";>
   <div class="row">
-    <img width="100px" src="./logoparadise.jpg">
+    <img width="135px" src="./Imagens/logoparadise.png">
     <div class="col-6 col-md">
       <h5> </h5>
       <ul class="list-unstyled text-small">
@@ -79,8 +133,8 @@
     <div class="col-6 col-md">
       <br>
       <h5>Formas de pagamento:</h5>
-      <img width="300px" src="logo pagamento.jpg">
-      
+      <img width="250px" src="./Imagens/logo pagamento.jpg">
+    </div>  
     </div>
   </div>
   <center>&copy: Frutuoso - 2022</center> 

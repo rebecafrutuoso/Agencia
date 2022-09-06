@@ -144,7 +144,11 @@ footer p {
   margin: 20px;
   width: 350px;
   transition: all 0.3s ease-out;
-}.card:hover {
+  color: rgb(255, 191, 0);
+  text-align: center;
+
+}
+.card:hover {
   transform: translateY(-5px);
   cursor: pointer;
 }

@@ -4,27 +4,33 @@
 <head>
     <meta charset="UTF-8">
     <title>Cadastro</title>
-    <link rel="stylesheet" href="/CSS/stylecss2.css">
+    <link rel="stylesheet" href="stylecss2.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
      <!---INCIO MENU--->
-     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="/Index.html">PARADISE</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
-        <span class="navbar-toggler-icon"></span>
+     <nav style= color:#1e3c6c;background-color:white; class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="paradise.html"><img width="100px" src="./Imagens/logocabeçalho.png"></a>
+      <button style="color: #1e3c6c ;" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
       </button>
-    <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+      <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="Destinos.html">Destinos <span class="sr-only">(página atual)</span></a>
+            <a class="nav-link" href="destinos.html"><img src="./Imagens/destinos.png" width="150px" height="80px"> <span class="sr-only">(página atual)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="promoções.html">Promoções</a>
+            <a class="nav-link" href="promoções.html"><img src="./Imagens/promoções.png" width="150px" height="80px"></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Contato.html">Contato</a>
+            <a class="nav-link" href="Contato.html"><img src="./Imagens/contato.png" width="150px" height="80px"> </a>
           </li>
         </ul>
+        <nav class="form-inline my-2 my-lg-0"">
+          <form class="form-inline">
+            <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">
+            <a href="./Cadastro.html">Entre ou cadastra-se</a></button>
+          </form>
+        </nav>
       </div>
     </nav>
     <!---FIM MENU-->
@@ -47,7 +53,7 @@
             <input type="search" id="text" placeholder="Nome Completo">
             <label for="text">E-mail:</label>
             <input type="email" id="email" placeholder="">
-            <label for="text">Telefone:</label>
+            <label for="text">Celular:</label>
             <input type="tel" id="Telefone" placeholder=" (  )">
             <label for="text">Senha:</label>
             <input type="password" id="password" placeholder="">
